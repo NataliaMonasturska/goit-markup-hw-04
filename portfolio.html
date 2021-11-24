@@ -42,8 +42,16 @@
         </ul>
     </nav>
     <div class="header-connect">
-    <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+    <a class="header-mail link" href="mailto:info@devstudio.com">
+        <svg class="header-icon" width="16" height="12">
+            <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>
+        info@devstudio.com</a>
+    <a class="header-tel link" href="tel:+380961111111">
+        <svg class="header-icon" width="10" height="16">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+        </svg>
+         +38 096 111 11 11</a>
     </div>
     </div>
 </header>
@@ -61,7 +69,7 @@
                  </ul>  
               <ul class="list portfolio-list">
              <li class="portfolio-item">
-                 <a class="link" href="">
+                 <a class="link portfolio-link " href="">
                     <img src="./images/img1for2hw.jpg"
                      alt="ноутбук с открытой страницей веб-сайта" 
                      Width="370" 
@@ -74,7 +82,7 @@
                 </a>
              </li>
              <li class="portfolio-item">
-                 <a class="link"  href="">
+                 <a class="link portfolio-link"  href="">
                  <img 
                      src="./images/img2for2hw.jpg" 
                      alt="два футболиста с мячом"
@@ -88,7 +96,7 @@
                  </a>
              </li>
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img3for2hw.jpg" 
                      alt="логотип ресторана"
@@ -102,7 +110,7 @@
                     </a>
              </li>
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                     src="./images/img4for2hw.jpg" 
                     alt="наушники"
@@ -116,7 +124,7 @@
                     </a>
              </li>
              <li class="portfolio-item">
-                 <a class="link" href="">
+                 <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img5for2hw.jpg"
                      alt="две коробки"
@@ -130,7 +138,7 @@
                     </a>
              </li>
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img6for2hw.jpg" 
                      alt="компьютер с открытой страницей веб-сайта"
@@ -144,7 +152,7 @@
                     </a>
              </li>
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img7for2hw.jpg"
                      alt="открытый журнал"
@@ -158,7 +166,7 @@
                     </a>
              </li>
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img8for2hw.jpg"
                      alt="бирка"
@@ -172,7 +180,7 @@
                     </a>
              </li >
              <li class="portfolio-item">
-                <a class="link" href="">
+                <a class="link portfolio-link" href="">
                  <img 
                      src="./images/img9for2hw.jpg" 
                      alt="ноутбук с открытой страницей приложения"
@@ -192,8 +200,10 @@
 
 <footer class="footer">
     <section class="footer-section">
-    <div class="container">
         <h2 class="visually-hidden">FOOTER</h2>
+    <div class="container footer-container">
+        <div class="footer-left">
+        
     <a class="footer-logo link" href=""><span class="footer-web">Web</span><span class="footer-studio">Studio</span></a>
     <address class="address">
         <ul class="footer-list list">
@@ -208,7 +218,47 @@
                 <a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
-    </address>
+        </address>
+        </div>
+        <div class="footer-right">
+            <h3 class="footer-right-title">присоединяйтесь</h3> 
+            <ul class="footer-list-right">
+                <li>
+                <ul class="footer-social-list list">
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link">
+                            <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram">
+                
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"> <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter">
+                
+                                </use>
+                            </svg></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"> <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook">
+                
+                                </use>
+                            </svg></a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="" class="footer-social-link"> <svg class="footer-social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin">
+                
+                                </use>
+                            </svg></a>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+        </div>
     </div>
     </section>
 </footer>
